@@ -9,14 +9,14 @@ public class DialogueUI : MonoBehaviour
 
     public bool IsOpen { get; private set; }
 
-    private TypewriterEffect typewriterEffect;
+    private DialogueIterator dialogueIterator;
     private ResponseHandler responseHandler;
 
     private bool isWritingDialogue;
 
     private void Start()
     {
-        typewriterEffect = GetComponent<TypewriterEffect>();
+        dialogueIterator = GetComponent<DialogueIterator>();
         responseHandler = GetComponent<ResponseHandler>();
         
         SetDialogueBoxOpen(false);
@@ -37,7 +37,7 @@ public class DialogueUI : MonoBehaviour
         SetDialogueBoxOpen(true);
         isWritingDialogue = true;
         
-        yield return typewriterEffect.Run(dialogueObject, textLabel);
+        yield return dialogueIterator.IterateDialogue(dialogueObject, textLabel);
 
         if (dialogueObject.HasResponses)
         {
