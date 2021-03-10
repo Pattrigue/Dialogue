@@ -29,11 +29,7 @@ MonoBehaviour:
   responses:
   - responseText: Yes
     dialogueObject: {fileID: 11400000, guid: b1d3bc58cae81c445bfe1f16511066fa, type: 2}
-    onResponseSelected:
-      m_PersistentCalls:
-        m_Calls: []
   - responseText: No
     dialogueObject: {fileID: 11400000, guid: 914cf945b50fa5c4d88f7cc4bdd1873f, type: 2}
-    onResponseSelected:
-      m_PersistentCalls:
-        m_Calls: []
+  - responseText: Maybe
+    dialogueObject: {fileID: 11400000, guid: 914cf945b50fa5c4d88f7cc4bdd1873f, type: 2}

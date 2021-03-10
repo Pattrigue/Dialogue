@@ -62,7 +62,7 @@ public class ResponseHandler : MonoBehaviour
     {
         if (responseEvents != null)
         {
-            Array.Find(responseEvents, e => e.Response == response.DialogueObject)?.OnSelected();
+            Array.Find(responseEvents, e => e.DialogueObject == response.DialogueObject)?.OnSelected();
         }
 
         responseEvents = null;

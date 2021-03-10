@@ -1,9 +1,15 @@
 using UnityEngine;
 
+[ExecuteInEditMode]
 public class DialogueActivator : MonoBehaviour, IInteractable
 {
     [SerializeField] private Dialogue dialogue;
-    
+
+    private void Update()
+    {
+        dialogue.OnValidate();
+    }
+
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player") && other.TryGetComponent(out Player player))
