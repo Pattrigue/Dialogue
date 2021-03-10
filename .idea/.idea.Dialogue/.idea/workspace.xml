@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b9f8bdc0-b3a9-42bd-ac30-d7b01e0832c3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Dialogue/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Dialogue/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Dialogue/TestDialogue.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Dialogue/TestDialogue.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DialogueSystem/Dialogue.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DialogueSystem/Dialogue.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DialogueSystem/DialogueActivator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DialogueSystem/DialogueActivator.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DialogueSystem/ResponseEvent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DialogueSystem/ResponseEvent.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DialogueSystem/ResponseHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DialogueSystem/ResponseHandler.cs" afterDir="false" />
-    </list>
+    <list default="true" id="b9f8bdc0-b3a9-42bd-ac30-d7b01e0832c3" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,17 +43,20 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/DialogueSystem/TypewriterEffect.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/DialogueSystem/DialogueIterator.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/DialogueSystem/DialogueActivator.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/DialogueSystem/ResponseEvent.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/DialogueSystem/Dialogue.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/DialogueSystem/ResponseEvent.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1pHv0x8r0Cl681uNJouCr4urHLQ" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -101,7 +96,7 @@
       <workItem from="1615203383562" duration="398000" />
       <workItem from="1615206473566" duration="8388000" />
       <workItem from="1615376776577" duration="2465000" />
-      <workItem from="1615379762479" duration="1065000" />
+      <workItem from="1615379762479" duration="1266000" />
     </task>
     <servers />
   </component>
@@ -123,6 +118,7 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
 </project>
