@@ -734,7 +734,8 @@ MonoBehaviour:
   dialogue:
     dialogueObject: {fileID: 11400000, guid: c5bdb119f68ddec41b6f43a85e4b4d04, type: 2}
     responseEvents:
-    - response: {fileID: 11400000, guid: b1d3bc58cae81c445bfe1f16511066fa, type: 2}
+    - name: OnClickYes
+      response: {fileID: 11400000, guid: b1d3bc58cae81c445bfe1f16511066fa, type: 2}
       onResponseSelected:
         m_PersistentCalls:
           m_Calls:
